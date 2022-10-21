@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vchamelin/web-node.git",
+    "url": "git+https://github.com/vchamelin/web_node.git.git",
     "email": "1.slava.1.amelin.1@gmail.com"
   },
-  "homepage": "https://github.com/vchamelin/web-node#readme",
+  "homepage": "https://github.com/vchamelin/web_node#readme",
   "bugs": {
-    "url": "https://github.com/vchamelin/web-node/issues"
+    "url": "https://github.com/vchamelin/web_node/issues"
   },
   "author": "Viacheslav Amelin",
   "license": "ISC",
