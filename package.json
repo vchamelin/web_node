@@ -9,7 +9,7 @@
     "lint": "eslint --ext .js . --ignore-path .gitignore",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "prettier --check . --ignore-path .gitignore",
-    "prettier:fix": "prettier --write .",
+    "prettier:fix": "prettier --write . --ignore-path",
     "prepare": "husky install"
   },
   "repository": {
