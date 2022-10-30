@@ -1,0 +1,34 @@
+{
+  "name": "web-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js . --ignore-path .gitignore",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "prettier --check . --ignore-path .gitignore",
+    "prettier:fix": "prettier --write . --ignore-path",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vchamelin/web_node.git.git",
+    "email": "1.slava.1.amelin.1@gmail.com"
+  },
+  "homepage": "https://github.com/vchamelin/web_node#readme",
+  "bugs": {
+    "url": "https://github.com/vchamelin/web_node/issues"
+  },
+  "author": "Viacheslav Amelin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-sonarjs": "^0.16.0",
+    "husky": "^8.0.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.7.1"
+  }
+}
