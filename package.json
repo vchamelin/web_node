@@ -7,9 +7,9 @@
     "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js . --ignore-path .gitignore",
-    "lint:fix": "npm run lint -- --fix --ignore-path .gitignore",
+    "lint:fix": "npm run lint -- --fix",
     "prettier": "prettier --check . --ignore-path .gitignore",
-    "prettier:fix": "prettier --write . --ignore-path .gitignore",
+    "prettier:fix": "prettier --write .",
     "prepare": "husky install"
   },
   "repository": {
@@ -25,6 +25,8 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.25.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-sonarjs": "^0.16.0",
     "husky": "^8.0.1",
     "pre-commit": "^1.2.2",
     "prettier": "^2.7.1"
